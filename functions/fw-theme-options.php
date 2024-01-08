@@ -2341,7 +2341,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'label'       => __( 'CTAs', 'fastway' ),
 	'description'	=>	'(icon class, url or company-data,button class, text)',
 	'section'     => 'section_mobile',
-	'default'     => 'fab fa-whatsapp,whatsapp,wp,Consultanos | fal fa-phone,phone,fb,Llamar ahora'
+	'default'     => 'fab fa-whatsapp,whatsapp,wp,Consultanos | fa fa-phone,phone,fb,Llamar ahora'
 ) );
 
 
@@ -4366,7 +4366,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'default'	=>'<div class="container" id="content">
 	<div class="content-detalle row" style="margin:0 auto;margin-top:40px;">
 		<div class="col-3">
-            <i class="fal fa-debug" style="color:var(--main);font-size:200px;"></i>
+            <i class="fa fa-debug" style="color:var(--main);font-size:200px;"></i>
 		</div>
 		<div class="col-9">
 			<h1 class="txt-24 t2 tit-pagina" style="font-weight: 400;">'.__('Sorry, we didn\'t find what you are looking for. ','fastway').'</h1>

@@ -410,7 +410,7 @@ function fw_sale($atts = []){
   $price= $product->get_regular_price();
   if($atts['type']==1)$off=fw_theme_mod('fw_label_sale');
   else if($atts['type']==2)$off=$price-$sale;
-  else if($atts['type']==3)$off='<i class="fal fa-badge-percent"></i>';
+  else if($atts['type']==3)$off='<i class="fa fa-badge-percent"></i>';
   
 	echo '<span class="sale_text '.$atts['class'].'">'.$off.'</span>';
 }
@@ -566,11 +566,11 @@ function fw_loop_labels($atts = [], $content = null){
     global $product;
     
     if($product->get_shipping_class()==$atts['id'] && $atts['type']=='shipping-class'  ){//envio=gratis
-        echo '<div class="envio-gratis-tag " ><i class="fal fa-shipping-fast"></i> '.fw_theme_mod('fw_shipping_free_label').'</div>';
+        echo '<div class="envio-gratis-tag " ><i class="fa fa-shipping-fast"></i> '.fw_theme_mod('fw_shipping_free_label').'</div>';
     }else if($atts['type']=='last' && $product->get_stock_quantity()==1){
         echo '<div class="envio-gratis-tag ultimo" >'.'¡Último Disponible!'.'</div>';
     }else if($atts['type']=='min_price' && $product->get_price()>=$atts['price']){
-      echo '<div class="envio-gratis-tag " ><i class="fal fa-shipping-fast"></i> '.fw_theme_mod('fw_shipping_free_label').'</div>';
+      echo '<div class="envio-gratis-tag " ><i class="fa fa-shipping-fast"></i> '.fw_theme_mod('fw_shipping_free_label').'</div>';
   }else if($atts['type']=='sale' && $product->is_on_sale()){
       $sale= $product->get_sale_price();
       $price= $product->get_regular_price();

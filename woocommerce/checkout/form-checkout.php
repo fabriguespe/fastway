@@ -36,7 +36,7 @@ var paso = 1;
     <div class="col-lg-8 col-sm-12">
       <div class="box-detail mostrar paso-loading" style="display:none;text-align:center;width:100%;"> 
             <div class="capsula ">
-              <i class="fal fa-circle-notch fa-spin" style="color:var(--main);width:100%;font-size:80px !important;margin-bottom:50px;" aria-hidden="true"></i>
+              <i class="fa fa-circle-notch fa-spin" style="color:var(--main);width:100%;font-size:80px !important;margin-bottom:50px;" aria-hidden="true"></i>
               <span><?=fw_theme_mod('fw_label_checkout_loading')?></span>
             </div>
       </div>

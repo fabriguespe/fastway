@@ -915,7 +915,7 @@ function vc_fw_shorts() {
                   "heading"     => __("Type"),
                   "param_name"  => "type",
                   'description' => 'Variables: fbX,twitterX,youtubeX,whatsappX,igX,emailX,phoneX,addressX <br> 
-                  FA Class: or fa-icon ,fal fa-icon<br>
+                  FA Class: or fa-icon ,fa fa-icon<br>
                   ',
                   "admin_label" => true,
                 ),
@@ -1026,7 +1026,7 @@ function vc_social_icons() {
                   "heading"     => __("Type"),
                   "param_name"  => "type",
                   'description' => 'fb,twitter,youtube,linkedin,whatsapp,ig,email,phone,address <br>
-                  or fa-icon ,fal fa-icon',
+                  or fa-icon ,fa fa-icon',
                   "admin_label" => true,
                 ),
                 array(
