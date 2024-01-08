@@ -3027,7 +3027,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_shipping_method_1_icon',
 	'section'     => 'section_woo_shippings',
-	'default'     => 'fad fa-motorcycle',
+	'default'     => 'fa fa-motorcycle',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3062,7 +3062,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_shipping_method_2_icon',
 	'section'     => 'section_woo_shippings',
-	'default'     => 'fad fa-bus',
+	'default'     => 'fa fa-bus',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3095,7 +3095,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_shipping_method_3_icon',
 	'section'     => 'section_woo_shippings',
-	'default'     => 'fad fa-shipping-fast',
+	'default'     => 'fa fa-shipping-fast',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3129,7 +3129,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_shipping_method_4_icon',
 	'section'     => 'section_woo_shippings',
-	'default'     => 'fad fa-truck-container',
+	'default'     => 'fa fa-truck-container',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3165,7 +3165,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_shipping_method_5_icon',
 	'section'     => 'section_woo_shippings',
-	'default'     => 'fad fa-store',
+	'default'     => 'fa fa-store',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3234,7 +3234,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_payment_method_1_icon',
 	'section'     => 'section_woo_payments',
-	'default'     => 'fad fa-credit-card',
+	'default'     => 'fa fa-credit-card',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3279,7 +3279,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_payment_method_2_icon',
 	'section'     => 'section_woo_payments',
-	'default'     => 'fad fa-hand-holding-usd',
+	'default'     => 'fa fa-hand-holding-usd',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3312,7 +3312,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_payment_method_3_icon',
 	'section'     => 'section_woo_payments',
-	'default'     => 'fad fa-money-check-alt',
+	'default'     => 'fa fa-money-check-alt',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
@@ -3357,7 +3357,7 @@ Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',
 	'settings'    => 'fw_payment_method_4_icon',
 	'section'     => 'section_woo_payments',
-	'default'     => 'fad fa-barcode-read',
+	'default'     => 'fa fa-barcode-read',
 ) );
 Kirki::add_field( 'theme_config_id', array(
 	'type'        => 'text',

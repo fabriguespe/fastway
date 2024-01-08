@@ -238,7 +238,7 @@ color:black
           <input type="button" value="-" class="minus"><input id="'.$id_var.'" type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
           </div></td>
           <td ><button id="fw_add_to_cart_button_'.$id_var.'"  onclick="add_to_minicart_table('.$product->id.','. $id_var.')" class=" btn fw_add_to_cart_button_table var_'.$id_var.'" data-product_id="'.$product->id.'">
-          <i class="fad fa-cart-plus "></i>
+          <i class="fa fa-cart-plus "></i>
           <i class="fas fa-circle-notch fa-spin" style="display:none"></i>
           </button></td>
         </tr>';

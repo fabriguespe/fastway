@@ -60,7 +60,7 @@
         <div class="modal-content">
             <div class="modal-body mx-3">
                 <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span></button>
-                <div class="row text-center"><i class="fad fa-shipping-fast mb10" style="color:var(--second);font-size:30px;margin:0 auto;"></i></div>
+                <div class="row text-center"><i class="fa fa-shipping-fast mb10" style="color:var(--second);font-size:30px;margin:0 auto;"></i></div>
                 <div class="container">
                 <h4 class="modal-title text-center"><?=fw_theme_mod('fw_label_calcular_costo_envio')?></h4>
                 <div id="shipping-calc" class="text-center mt20 mb20">
@@ -83,7 +83,7 @@
         <div class="modal-content">
             <div class="modal-body mx-3">
                 <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">×</span></button>
-                <div class="row text-center"><i class="fad fa-credit-card mb10" style="color:var(--second);font-size:30px;margin:0 auto;"></i></div>
+                <div class="row text-center"><i class="fa fa-credit-card mb10" style="color:var(--second);font-size:30px;margin:0 auto;"></i></div>
                 <div class="container">
                     <h4 class="modal-title text-center mb10"><?=fw_theme_mod('fw_label_calcular_cuotas')?></h4>
                     <?php if(is_plugin_active('Plugin-WooCommerce-master/index.php') && is_plugin_active('woocommerce-mercadoenvios/woocommerce-mercadoenvios.php')){ ?>
@@ -644,12 +644,12 @@ function populatecart(){
             jqe+='<div class="col-2" style="padding:0px !important;text-align:center !important;"><img style="max-height:90px;" src="'+value['url']+'" class="img-cart"></div>'
             jqe+='<div class="col-6">'
             jqe+='<a target="_self" href="'+value['link']+'"><div class="titulo-producto-cart">'+value['nombre']+'</div></a>'
-            jqe+='<div id="loadingshow_'+index+'" style="display:none;"><i  class="fad fa-circle-notch fa-spin" style="color:var(--main);" ></i></div>'
+            jqe+='<div id="loadingshow_'+index+'" style="display:none;"><i  class="fa fa-circle-notch fa-spin" style="color:var(--main);" ></i></div>'
             jqe+='<div class="row d-flex justify-content-left item-cantidad " id="loadinghide_'+index+'">'
             //jqe+='<div class="item-sumar text-left align-self-center"><a href="#" onclick="addCant('+index+',\''+value['cart_item_key']+'\',\'-'+value['quantity']+'\',\''+maximum_quantity+'\')" class="txt-22"><i class="fal fa-minus-circle"></i></a></div>'	
             jqe+='<input  type="text" style="width:40px;text-align:center;margin-left:10px;margin-right:10px;" id="qty_'+index+'" name="quantity" class="input-number" value="'+value['quantity']+'" min="1" max="100">'
             jqe+='<div class="item-restar align-self-center"><a href="#" onclick="addCant('+index+',\''+value['cart_item_key']+'\',\''+value['quantity']+'\',\''+maximum_quantity+'\')"  class="txt-22"> <i class="fal fa-redo"></i></a></div>'
-            jqe+='<div class="item-restar align-self-center" style="margin-left:10px;"><a href="#" onclick="remove('+index+',\''+value['cart_item_key']+'\')"  class="txt-22"> <i class="fad fa-trash-alt" style="color:red;"></i></a>'+maxlabel+'</div>'
+            jqe+='<div class="item-restar align-self-center" style="margin-left:10px;"><a href="#" onclick="remove('+index+',\''+value['cart_item_key']+'\')"  class="txt-22"> <i class="fa fa-trash-alt" style="color:red;"></i></a>'+maxlabel+'</div>'
             jqe+='</div>'
             jqe+='</div><div class="col-4 precio-cart text-right">'
             jqe+='<span id="qtyx_'+index+'">'+quantity+'</span> x <span> $'+parseFloat(precio).toFixed(2)+'</span>'+'<?=fw_theme_mod('fw_show_taxrate')?'+IVA':''?>'+'<br>'

@@ -37,7 +37,7 @@ $show_shipping_calculator = ! empty( $show_shipping_calculator );
 $calculator_text          = '';
 ?>
 <tr class="woocommerce-shipping-totals shipping">
-	<a class="shipping_volver" onclick="jQuery('.paso-shipping').removeClass('inside')" style="display:none;" ><i class="fad fa-chevron-left"></i> Volver </a>
+	<a class="shipping_volver" onclick="jQuery('.paso-shipping').removeClass('inside')" style="display:none;" ><i class="fa fa-chevron-left"></i> Volver </a>
 	<td data-title="<?php echo esc_attr( $package_name ); ?>">
 		<?php if ( $available_methods ) : ?>
 			<div id="shipping_method" class="woocommerce-shipping-methods">

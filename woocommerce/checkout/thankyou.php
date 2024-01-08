@@ -86,7 +86,7 @@ if(window.dataLayer){
 
 		<?php else : ?>
 			<section class="container pagoexitoso" style="width:100%;">
-				<i class="fad fa-check-circle"></i>
+				<i class="fa fa-check-circle"></i>
 				<?php echo fw_parse_mail('thankyou',$order);?>
 				
 				<?php 

@@ -380,7 +380,7 @@ function fw_info_block($atts,$content){
     ), $atts );
 
     $code=do_shortcode(rawurldecode( base64_decode( $atts['code'] ) ));
-    $jaja = '<div class="capsula-blanca"><i class="fad fa-'.$atts['icon'].'" aria-hidden="true"></i><h2>'.$atts['title'].'</h2><h3>'.$atts['subtitle'].'</h3><div class="specs">'.$atts['desc'].'</div>';
+    $jaja = '<div class="capsula-blanca"><i class="fa fa-'.$atts['icon'].'" aria-hidden="true"></i><h2>'.$atts['title'].'</h2><h3>'.$atts['subtitle'].'</h3><div class="specs">'.$atts['desc'].'</div>';
     $jaja.= '<div class="specs">'.$code.'</div>';
     $jaja.= '</div>';
 

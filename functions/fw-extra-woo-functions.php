@@ -179,7 +179,7 @@ add_shortcode('fw_guia_talles', 'fw_guia_talles');
 function fw_guia_talles($atts = [], $content = null){
     global $product;
     $ifame=get_post_meta($product->id, '_fw_guia_talles', true );
-    if($ifame)echo do_shortcode(stripslashes(htmlspecialchars_decode('[fw_data type="fad fa-ruler" isli="true" stext="Guía de talles" iframe="'.$ifame.'"]')));
+    if($ifame)echo do_shortcode(stripslashes(htmlspecialchars_decode('[fw_data type="fa fa-ruler" isli="true" stext="Guía de talles" iframe="'.$ifame.'"]')));
 }
 
 add_shortcode('fw_single_summary', 'fw_single_summary');
@@ -433,7 +433,7 @@ function fw_cuotas($atts = []){
   //Esto lo usan varias webs
   if($precio>0 && $cuotas){
     $precio=round($precio/$cuotas);
-    echo '<span class="cuota_text '.$atts['class'].'"><i class="fad fa-credit-card"></i> '.$cuotas.' cuotas de $'.$precio.'</span>';
+    echo '<span class="cuota_text '.$atts['class'].'"><i class="fa fa-credit-card"></i> '.$cuotas.' cuotas de $'.$precio.'</span>';
   }
 }
 function fw_getcat( $product_id ){//Esto es para los mails
@@ -1330,7 +1330,7 @@ function fw_product_form_cta($atts = [], $content = null){
     $atts = shortcode_atts(array('icon' => 'plus-square' ,'text' => 'Consultar' ,'form_id' => 9), $atts );
     echo '
     <button data-toggle="modal" data-target="#modal_product" class=" btn fw_add_to_cart_button" data-product_id="1887">
-      <i class="fad fa-'.$atts['icon'].'" aria-hidden="true"></i>
+      <i class="fa fa-'.$atts['icon'].'" aria-hidden="true"></i>
       <span>'.$atts['text'].'</span>
     </button>
     <div id="modal_product" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

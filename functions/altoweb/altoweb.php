@@ -268,7 +268,7 @@ function altoweb_financiacion(){
     <a target="_blank" data-toggle="modal" data-target="#modal_modalmp" class="fw_icon_link fancybox">
         <li class=" fw_icon  fw-medios modalmp d-flex isli" > 
         <span class="icon">
-            <i class="fad fa-credit-card"></i>
+            <i class="fa fa-credit-card"></i>
         </span> 
         <span class="text"> 
             $htmlcuotas
@@ -288,8 +288,8 @@ function altoweb_financiacion(){
     </div>
     </div>
 HTML;
-   $return.=do_shortcode('[fw_data type="fad fa-credit-card" isli="true" text="Cuotas sin interes" stext="'.fw_theme_mod('fw_label_calcular_cuotas').'" modal="modal_cuotas" el_class="fw-medios calculadora downlink"]');
-   $return.= do_shortcode('[fw_data type="fad fa-shipping-fast" isli="true" text="Envío a domicilio" stext="'.fw_theme_mod('fw_label_calcular_envios').'" modal="modal_envio" el_class="fw-medios envio downlink"]');
+   $return.=do_shortcode('[fw_data type="fa fa-credit-card" isli="true" text="Cuotas sin interes" stext="'.fw_theme_mod('fw_label_calcular_cuotas').'" modal="modal_cuotas" el_class="fw-medios calculadora downlink"]');
+   $return.= do_shortcode('[fw_data type="fa fa-shipping-fast" isli="true" text="Envío a domicilio" stext="'.fw_theme_mod('fw_label_calcular_envios').'" modal="modal_envio" el_class="fw-medios envio downlink"]');
    $return.= ' </div>';
    return $return;
 }

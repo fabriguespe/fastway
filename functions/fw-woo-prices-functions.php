@@ -190,7 +190,7 @@ function custom_dynamic_sale_price_html( $price_html, $product ) {
     if(empty($product->get_price()) || fw_check_hide_prices()){
         if(is_product()){
             return '<button type="button"  onclick="location.href=\''.fw_theme_mod('fw_consultar_link').'\'" class=" btn fw_add_to_cart_button" data-product_id="'.$product->id.'">
-            <i class="fad fa-life-ring"></i>
+            <i class="fa fa-life-ring"></i>
             <span>'. fw_theme_mod('fw_consultar_price').'</span>
             </button>';
         }else{
