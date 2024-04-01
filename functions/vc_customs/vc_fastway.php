@@ -385,6 +385,7 @@ function fw_info_block($atts,$content){
     $jaja.= '</div>';
 
     return $jaja;
+    //ja
 }
 add_action( 'vc_before_init', 'vc_fw_info_block' );
 function vc_fw_info_block() {
